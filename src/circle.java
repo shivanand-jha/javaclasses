@@ -19,6 +19,7 @@ class cylinder1 extends circle {
         c.height=10;
         System.out.println("volume : "+c.volume());
         System.out.println("base area : "+c.area());
+     //inherit area and property method from circle class
         System.out.println("perimeter :"+c.perimeter());
     }
 }
