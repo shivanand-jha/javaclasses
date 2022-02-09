@@ -15,9 +15,9 @@ public class abClass {
 
     }
 }
-abstract  class hospital{
-    abstract public void emergency();
-  abstract   public void appointment();
+abstract  class hospital{//object of abstract class cannot be created
+    abstract public void emergency();//only abstract method can be empty
+  abstract   public void appointment();//every method of abstract class must be overridden
   abstract  public void admit();
   abstract public  void bill();
 }
