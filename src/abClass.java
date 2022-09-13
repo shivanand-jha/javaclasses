@@ -3,7 +3,7 @@ import static java.lang.System.*;
 public class abClass {
     //abstract method
     public abClass(){
-        out.println("constructor call");
+        System.out.println("constructor call");
     }
 
     public static void main(String[] args) {
