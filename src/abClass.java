@@ -23,19 +23,19 @@ abstract  class hospital{//object of abstract class cannot be created
 }
 class myHospital extends hospital{
     myHospital(){
-        out.println(" constructor call in sub class");
+        System.out.println(" constructor call in sub class");
     }
     @Override
     public void appointment(){
-        out.println("it's an emergency appointment");
+        System.out.println("it's an emergency appointment");
     }
     @Override
     public void emergency(){
-        out.println("it's an emergency");
+        System.out.println("it's an emergency");
     }
     @Override
     public void admit(){
-        out.println("admit the patient first");
+        System.out.println("admit the patient first");
     }
     @Override
     public void bill(){
